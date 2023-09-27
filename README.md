@@ -56,10 +56,8 @@ Para ejecutar el proyecto, sigue estos pasos:
    ```
 
 La aplicación estará disponible en [
-http://localhost/
-:3000](
-http://localhost/
-:3000), donde `puerto` es el puerto configurado en el archivo `app.js`.
+http://localhost/:3000](
+http://localhost/:3000), donde `puerto` es el puerto configurado en el archivo `app.js`.
 
 ---
 
