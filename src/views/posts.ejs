@@ -1,10 +1,10 @@
 <%- include('partials/header') -%>
 
-    <header class="d-flex justify-content-center bg-secondary pt-3 text-bg-primary">
+    <header class="d-flex justify-content-center bg-warning pt-3 text-bg-primary">
         <h1>Posts</h1>
     </header>
-    <main class="d-flex flex-column align-items-center pt-3">
-        <button type="button" class="btn btn-primary " id="btn-new">New Post</button>
+    <main class="d-flex flex-column min-vh-100 bg-warning bg-opacity-50 align-items-center pt-3 ">
+        <button type="button" class="btn btn-warning fw-bold mb-4" id="btn-new">New Post</button>
         <div class="container text-center">
             <div class="row" id="container-row">
                 <% posts.forEach(post=> { %>
@@ -19,7 +19,7 @@
                                     <%= post.content %>
                                 </p>
                                 <div>
-                                    <button class="btn btn-secondary" id="btn-edit">Edit</button>
+                                    <button class="btn btn-primary" id="btn-edit">Edit</button>
                                     <button type="" class="btn btn-danger" id="btn-delete">Delete</button>
                                 </div>
                             </div>
