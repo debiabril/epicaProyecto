@@ -57,43 +57,9 @@ Para ejecutar el proyecto, sigue estos pasos:
 
 La aplicación estará disponible en [
 http://localhost/
-:puerto](
+:3000](
 http://localhost/
-:puerto), donde `puerto` es el puerto configurado en el archivo `app.js`.
-
-## Contribución
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Crea una nueva rama (branch):
-
-   ```bash
-   git checkout -b feature/nueva-funcionalidad
-   ```
-
-2. Realiza tus cambios y asegúrate de que las pruebas sean exitosas.
-
-3. Haz un commit de tus cambios:
-
-   ```bash
-   git commit -m "Agrega nueva funcionalidad"
-   ```
-
-4. Sube tus cambios a tu repositorio en GitHub:
-
-   ```bash
-   git push origin feature/nueva-funcionalidad
-   ```
-
-5. Abre una solicitud de extracción (pull request) en GitHub explicando tus cambios.
-
-## Licencia
-
-Este proyecto está bajo la licencia [Nombre de la Licencia] - Consulta el archivo [
-LICENSE.md
-](
-LICENSE.md
-) para más detalles.
+:3000), donde `puerto` es el puerto configurado en el archivo `app.js`.
 
 ---
 
