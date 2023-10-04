@@ -23,14 +23,14 @@ https://www.mysql.com/
 
    ```bash
    git clone 
-https://github.com/tu-usuario/nombre-del-repo.git
+https://github.com/debiabril/epicaProyecto.git
 
    ```
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd nombre-del-repo
+   cd epicaProyecto
    ```
 
 3. Instala las dependencias del proyecto:
