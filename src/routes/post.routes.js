@@ -11,17 +11,17 @@ const postsRouter = Router();
 postsRouter.get('/posts', ViewPosts)
 
 // endpoint para traer todas las tareas
-postsRouter.get('/api/posts', GetPosts)
+postsRouter.get('/posts', GetPosts)
 
 // endpoint para crear una tarea
 postsRouter.post
-('/api/posts', CreatePost)
+('/posts', CreatePost)
 
 // endpoint para modificar una tarea
-postsRouter.put('/api/posts/:id', UpdatePost)
+postsRouter.put('/posts/:id', UpdatePost)
 
 // endpoint para eliminar una tarea
-postsRouter.delete('/api/posts/:id', DeletePost)
+postsRouter.delete('/posts/:id', DeletePost)
 
 postsRouter.use((req, res, next) => {
     console.log('middleware posts'),
