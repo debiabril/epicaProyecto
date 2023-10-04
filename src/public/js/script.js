@@ -89,7 +89,7 @@ form.addEventListener("submit", (event) => {
             content: inputContent.value,
             imageUrl: inputImageUrl.value,
         };
-    fetch(`http://localhost:3000/api/posts/${idForm}`, {
+    fetch(`https://postsepica.onrender.com/posts/api/posts/${idForm}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
