@@ -24,7 +24,7 @@ app.use(helmet({
     contentSecurityPolicy: false
 }))
 
-/* app.use(favicon(__dirname + '/public/icoCorazon.png'));  */
+
 app.use(express.static(path.join(__dirname, "src", "public")))
 
 app.set('views', path.join(__dirname, "src", "views"))

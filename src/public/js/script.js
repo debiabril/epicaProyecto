@@ -33,6 +33,7 @@ document.addEventListener('click', (event) => {
         if (res.ok) {
             article.remove()
         }
+        window - location.reload() 
     }).catch(err => {
         console.error(err)
     })
@@ -77,7 +78,7 @@ form.addEventListener("submit", (event) => {
         if (res.ok) {
         alert("Post created successfully");
         myModal.hide();
-        location.reload();
+        window - location.reload() ;
     }})
         .catch((err) => {
         console.error(err);
@@ -99,7 +100,7 @@ form.addEventListener("submit", (event) => {
             if (res.ok) {
                 alert('Post edited successfully')
                 myModal.hide();
-                location.reload();
+                window - location.reload() ;
             }
         })
     }
