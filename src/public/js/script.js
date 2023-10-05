@@ -27,7 +27,7 @@ document.addEventListener('click', (event) => {
     if (event.target.matches('#btn-delete')) {
         const article = event.target.closest('.col-6')
         const idArticle = article.dataset.id
-    fetch(`https://postsepica.onrender.com/posts/${idArticle}`, {
+    fetch(`https://postsepica.onrender.com/api/posts/${idArticle}`, {
         method: 'DELETE'
     }).then(res => {
         if (res.ok) {
@@ -66,7 +66,7 @@ form.addEventListener("submit", (event) => {
             content: inputContent.value,
             imageUrl: inputImageUrl.value,
         };
-        fetch('https://postsepica.onrender.com/posts', {
+        fetch('https://postsepica.onrender.com/api/posts', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
@@ -89,7 +89,7 @@ form.addEventListener("submit", (event) => {
             content: inputContent.value,
             imageUrl: inputImageUrl.value,
         };
-    fetch(`https://postsepica.onrender.com/posts/${idForm}`, {
+    fetch(`https://postsepica.onrender.com/api/posts/${idForm}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
